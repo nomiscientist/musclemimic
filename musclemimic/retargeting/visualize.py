@@ -5,6 +5,7 @@ Example usage:
   uv run --extra c3d --extra smpl --extra gmr musclemimic-retarget-visualize --c3d-file path/to/file.c3d --c3d-model-path /path/to/smplx
 """
 
+import utils.session
 import argparse
 
 from loco_mujoco.task_factories import AMASSDatasetConf, CustomDatasetConf, ImitationFactory

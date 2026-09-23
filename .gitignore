@@ -46,3 +46,5 @@ references/
 # Analysis outputs
 scripts/bimanual_diverse_motions*
 scripts/test_bimanual_diverse*
+config.bat
+node_modules
